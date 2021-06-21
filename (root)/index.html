@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+    
+<html>
+    
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Marko+One&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+ <title>Happy Birthday appa</title> 
+ <meta charset="utf-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <script type="text/javascript"> 
+ function gift(){
+  document.getElementById('mydiv').style.display="block";                   
+  document.getElementById('p').style.display="none";
+  document.getElementById('gift2').style.display="none";
+  }
+  window.addEventListener("mouseover",play);
+window.addEventListener("click",play);
+function play(){ document.getElementById("audio").play();
+}
+alert("view in potrait mode")
+  
+   </script> 
+   <style type="text/css"> 
+   #mydiv{ 
+   display: none; 
+   } 
+  
+
+#p{
+    position:fixed;
+    top:600px;
+    left:500px;
+    animation:mymove 1.5s infinite;
+    font-size:2.5em;
+}
+@keyframes mymove{
+    from{right:400px;}
+    to{left:290px;}
+    to{right:400px;}
+}
+
+#wishes{
+    text-align:center;
+    font-size:4em;
+    font-family: 'Marko One', serif;
+    color:pink;
+}
+
+.poem{
+    font-family: 'Pacifico', cursive;
+    text-align:center;
+    2px 2px 7px 3px gray;
+    margin:0px 100px 0px 100px;
+    color:#ccff99;
+}
+.img1{
+    width:500px;
+    position:relative;
+    left:40px;
+    opacity:0.7;
+    border:6px solid #ccff99;
+}
+body{
+    background-image:url("https://dl.dropbox.com/s/u5oio5qsrh0jo33/20210620_145454.jpg?dl=0");
+ background-attachment:fixed;
+ background-repeat:no-repeat;
+}
+#gift2{
+    position:fixed;
+    width:75px;
+    height:75px;
+    top:625px;
+    left:200px;
+}
+footer{
+    color:cyan;
+    text-align:center;
+    
+}
+hr{
+    border:3px solid cyan;
+}
+   </style>
+       
+   </head>
+       
+   <body>
+   
+    <img id="gift2" onclick="gift()" src="https://dl.dropbox.com/s/1x8hyd852hzmyfa/20210620_212309.jpg?dl=0"> 
+    <p id="p">⇦</p>
+    
+   
+    <div id="mydiv">
+     <p id="wishes">HAPPY FATHER'S DAY APPA</p>
+     <img src="https://dl.dropbox.com/s/uvnfjpo2oc7ck5t/img-20210620-wa0000.jpg?dl=0" class="img1"><br><br>
+      <p class="poem">With a moustache on his face,<br>He does show grace.<br><br>To fulfill a child's dream,<br> It's the only wish he has.<br><br> What else do you need?<br>While you have all the love guaranteed. </p> <hr>
+      <audio loop style="display:hidden;" id="audio">
+          <source src="https://dl.dropbox.com/s/3n66hvnljas5x47/Appa%20I%20Love%20You%20Pa%20Kannada%20Song.mp3?dl=0">
+      </audio>
+      <footer>©Yashas</footer>
+      </div>
+          
+      </body>
+          
+      <html>
